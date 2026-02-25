@@ -257,13 +257,13 @@ h1, h2, h3, h4, h5, h6 {
     content: attr(data-title);
     position: absolute;
     z-index: -1;
-    top: -0.3em;
+    top: -0.4em;
     left: -0.6em;
     font-family: var(--font-family-accent);
     font-size: 2.8em;
     line-height: 1;
     color: transparent;
-    -webkit-text-stroke: 1px var(--color-light-gray);
+    -webkit-text-stroke: 1px var(--color-dark-gray);
     text-stroke: 1px var(--color-light-gray); 
 }
 
@@ -326,7 +326,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-inline: 25px;
     color: var(--color-light);
     background-color: transparent;
-    border: 1px solid var(--color-light-gray);
+    border: 1px solid var(--color-dark-gray);
     border-radius: var(--border-radius);
 }
 
@@ -674,6 +674,7 @@ input[type=number] {
 .location-body {
     display: flex;
     flex-direction: column;
+    width: 100%;
     justify-content: center;
     align-items: center;
     padding: 80px 15px;
@@ -725,6 +726,7 @@ input[type=number] {
 
 .calculate-inner {
     display: flex;
+    justify-content: center;
     align-items: center;
     column-gap: 36px;
 }
@@ -841,6 +843,8 @@ input[type=number] {
 }
 
 .footer-main {
+    display: flex;
+    justify-content: center;
     padding-top: 140px;
     padding-bottom: 160px;
 }
