@@ -424,7 +424,6 @@ input[type=number] {
     display: flex;
     flex-direction: column;
     justify-content: end;
-    min-height: calc(100vh - var(--header-height));
     padding: 36px 70px;
     color: var(--color-light);
     background-color: var(--color-dark-alternate);
